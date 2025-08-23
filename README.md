@@ -1,17 +1,3 @@
-# História do Git
+# A Importancia do GitHub no versionamento de Software
 
-## History
-
-Torvalds started developing Git in April 2005 after the free license for BitKeeper, the proprietary source-control management (SCM) system used for Linux kernel development since 2002, was revoked for Linux. The copyright holder of BitKeeper, Larry McVoy, claimed that Andrew Tridgell had created SourcePuller by reverse engineering the BitKeeper protocols. The same incident also spurred the creation of Mercurial, another version-control system.  
-
-Torvalds wanted a distributed system that he could use like BitKeeper, but none of the available free systems met his needs. He cited an example of a source-control management system needing 30 seconds to apply a patch and update all associated metadata, and noted that this would not scale to the needs of Linux kernel development, where synchronizing with fellow maintainers could require 250 such actions at once. For his design criterion, he specified that patching should take no more than three seconds, and added three more goals:  
-
-- Take the Concurrent Versions System (CVS) as an example of what not to do; if in doubt, make the exact opposite decision.
-- Support a distributed, BitKeeper-like workflow.
-- Include very strong safeguards against corruption, either accidental or malicious.  
-
-These criteria eliminated every version-control system in use at the time, so immediately after the 2.6.12-rc2 Linux kernel development release, Torvalds set out to write his own.  
-
-The development of Git began on 3 April 2005. Torvalds announced the project on 6 April and became self-hosting the next day. The first merge of multiple branches took place on 18 April. Torvalds achieved his performance goals; on 29 April, the nascent Git was benchmarked recording patches to the Linux kernel tree at a rate of 6.7 patches per second. On 16 June, Git managed the kernel 2.6.12 release.  
-
-Torvalds turned over maintenance on 26 July 2005 to Junio Hamano, a major contributor to the project. Hamano was responsible for the 1.0 release on 21 December 2005.
+Git e GitHub são importantes para o versionamento de Software pois permitem a colaboração do time durante todo o ciclo de vida do projeto. A ferramnta permite a rastreabilidade do código e possui funcionalidades como o Branch, que permite ramificar o código para que seja realizada uma revisão com correções e melhorias a parte do código principal (main), e o Merge, que integra essa revisão após ser validada, criando assim uma nova versão ainda melhor.
