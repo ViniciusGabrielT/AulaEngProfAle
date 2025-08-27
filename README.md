@@ -1,3 +1,1 @@
-# A Importancia do GitHub no versionamento de Software
-
-Git e GitHub são importantes para o versionamento de Software pois permitem a colaboração do time durante todo o ciclo de vida do projeto. A ferramnta permite a rastreabilidade do código e possui funcionalidades como o Branch, que permite ramificar o código para que seja realizada uma revisão com correções e melhorias a parte do código principal (main), e o Merge, que integra essa revisão após ser validada, criando assim uma nova versão ainda melhor.
+# VINICIUS GABRIEL LOPES TORRES
